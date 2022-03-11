@@ -1,0 +1,65 @@
+<html>
+    <head>
+    <title> </title>
+    <style>
+        .o{
+            width: 1000px;
+            height: auto;
+            position: relative;
+            animation: moves 1s infinite;
+            transition-delay: 6s;
+            margin: 0 auto;
+        }
+      .q{
+          width: 500px;
+          height: 500px;
+          background-color: red;
+          float: left;
+          transform: rotate(45deg);
+          border-radius: 100% 100% 0 100%;
+      }
+      .w{
+          width: 500px;
+          height: 500px;
+          background-color: red;
+          float: left;
+          transform: rotate(45deg);
+          border-radius: 100% 100% 60% 0;
+      }
+      .e{
+          width: 500px;
+          height: 500px;
+          background-color: red;
+          transform: rotate(45deg);
+        position: absolute;
+        top: 250px;
+        left: 250px;
+      }
+      @keyframes moves{
+           0%{
+               top: 200px;
+           }
+           25%{
+               top: 20px;
+           }
+           50%{
+               top: 100px;
+           }
+           75%{
+            top: 150px;
+           }
+           100%{
+               top: 60px;
+           }
+        
+    </style>
+    </head>
+    <body>
+   <div class="o">
+            <div class="q"></div>
+            <div class="w"></div>
+            <div class="e"> </div>
+
+        </div>
+    </body>
+</html>
